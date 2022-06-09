@@ -2,7 +2,11 @@
 #why tuple is important ,makes things easier when you dont want to change a list.makes code more predictable-You cant start,run reverse which makes them less flexible than lists
 #They are faster than a list
 #geographic location and cordinatesis a  good example of tuple
-
+#Tuples consists of a number of values separated by comma
+#May be nested for example: t = 12345, 54321,'hello!'
+                            # u = t, (1,2,3,4,5)
+                           # u = ((12345,54321,'hello!'), (1,2,3,4,5))                       
+    
 my_tuple = (1,2,3,4,5)
 user = {
 (1,2):[1,2,3],
